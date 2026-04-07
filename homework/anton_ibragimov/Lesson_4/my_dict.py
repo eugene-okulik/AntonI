@@ -21,7 +21,7 @@ my_dict['list'].pop(1)  # Удаляем второй элемент ('banana')
 
 # Для 'dict':
 # Добавляем элемент с ключом-кортежем
-my_dict['dict']['i am a tuple'] = 'New Value'
+my_dict['dict'][('i am a tuple',)] = 'New Value'
 
 # Удаляем элемент по ключу 'а'
 my_dict['dict'].pop('a')
